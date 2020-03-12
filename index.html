@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="normalize.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+<title>exo mobile first</title>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]--><!--pour compaptibilité avant IE 9-->
+</head>
+<body>
+<main>
+    <header><!--l'en-tête-->
+        <h1>Titre du site</h1>
+        <div class="box1">
+            <nav class="main-navigation"><!--menu de navigation avec 5 items-->
+                <ul>
+                <li><a href="#">Bouton 1</a></li><!--
+                --><li><a href="#">Bouton 2</a></li><!--
+                --><li><a href="#">Bouton 3</a></li><!--
+                --><li><a href="#">Bouton 4</a></li><!--
+                --><li><a href="#">Bouton 5</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="container1"><!--section avec un h2 et un p-->
+        <div class="box2">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi pariatur nam, officiis sapiente quasi dolor amet et ullam voluptatum nihil necessitatibus harum, iusto magnam illo. Quod laborum aperiam ea rem?
+            </p>
+        </div>
+    </section>
+    <div class="backgroundimage"></div>
+    <section class="container2"><!--section avec le h2 et les 3 articles qui ont un p-->
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+        <div class="children">
+            <article>
+                <h3>Article 1</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum corrupti tempora cumque quo quisquam. Maiores dolorum consectetur tempora, assumenda, labore laudantium tempore aspernatur omnis eveniet nesciunt doloremque ad velit error.</p>
+            </article>
+            <article>
+                <h3>Article 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi in dolorum cum maxime aspernatur et animi beatae ab reiciendis nisi at necessitatibus eos est nihil aliquid, eum cupiditate. Repellendus, debitis?</p>
+            </article>
+            <article>
+                <h3>Article 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cumque, molestiae iure blanditiis accusantium labore repellat dignissimos dicta expedita consequuntur possimus voluptatem optio eius aliquid ducimus aspernatur enim quis alias.</p>
+            </article>
+        </div>
+    </section>
+    <section class="container3"><!--section avec h2 et le formulaire-->
+        <div class="formulaire">
+            <h2>CONTACTEZ-NOUS</h2>
+            <hr><!--une barre qui traverse la page-->
+        <form action="cible.php" method="GET">
+            <p> <!--Nom-->
+                <label for="name">Nom :</label>
+                <input type ="text" id="name" name="name" placeholder="Bob">
+            <!--Email-->
+                <label for="email">E-mail :</label>
+                <input type="email" id="email" name="mail" placeholder="bob@gmail.com">
+            <!--boutons-->
+                <label for="bouton"></label>
+                <input type="submit" value="Envoyer">
+            </p>
+        </form>
+        </div>
+        
+    </section>
+    <footer><!--pieds de la page-->
+        <div class="icone"><!--les icônes des réseaux sociaux-->
+        <a href="#">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+            <a href="#"><i class="fab fa-snapchat"></i></a>
+        </a>
+        <p>Contacts
+        Mentions légales
+        C.G.U
+        </p>
+        </div>
+    </footer>
+</main>
+</body>
+</html>
